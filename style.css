@@ -1,0 +1,65 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+
+  }
+  body {
+    background: linear-gradient(
+      to right,
+      #6f7280,
+      #2a2c3c,
+      #1ebcd8,
+      #833ab4,
+      #fd1d1d,
+      #fcb045
+    );
+    background-size: 400% 400%;
+    animation: body 10s infinite ease-in-out;
+  }
+  
+  @keyframes body {
+    0% {
+      background-position: 0 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0 50%;
+    }
+  }
+  h1 {
+    color: #050505;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 40px 40px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 50px;
+  }
+  
+  button:hover {
+    background-color: #455da0;
+  }
+  
+  p {
+    font-size: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
